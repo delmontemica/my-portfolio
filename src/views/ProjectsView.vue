@@ -48,7 +48,11 @@ export default {
           projectDescription: 'test',
           role: 'Frontend Developer, UI Designer',
           techStack: 'ReactJS, Laravel',
-          keyResponsibilities: ['test', 'test'],
+          keyResponsibilities: [
+            'Designed user interface for the landing page of product',
+            'Collaborated with a team of 5 in development of frontend',
+            'Facilitated scrum events and maintained scrum artifacts as scrum master',
+          ],
         },
       },
       {
@@ -59,20 +63,27 @@ export default {
         projectDetails: {
           projectDescription: 'test',
           role: 'Full Stack Developer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
+          techStack: 'PHP, AWS (S3, EC2)',
+          keyResponsibilities: [
+            'Maintained legacy code',
+            'Integrated new features',
+          ],
         },
       },
       {
         projectId: 'greatSignRedesign',
-        projectThumbnail: require('@/assets/images/GreatSign-Preview.png'),
+        projectThumbnail: require('@/assets/images/GreatSign-Redesign-Preview.png'),
         projectName: 'Great Sign Redesigned',
         projectSnippet: 'This is a short project description.',
         projectDetails: {
-          projectDescription: 'test',
-          role: 'UI Designer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
+          projectDescription:
+            'Redesigned UI of the current existing web system, Great Sign. This project is aimed to improve the quality of the user experience of the clients using the product, as well as to modernize the look and feel of the pages.',
+          role: 'UI/UX Designer',
+          techStack: 'Figma, Adobe Photoshop CC, Adobe Illustrator CC',
+          keyResponsibilities: [
+            'Redesigned of existing in-house product',
+            'Collaborated with engineers and product managers for feedbacks and improvements',
+          ],
         },
       },
       {
@@ -83,8 +94,13 @@ export default {
         projectDetails: {
           projectDescription: 'test',
           role: 'Frontend Developer, UI Designer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
+          techStack:
+            'ReactJS, TypeScript, Laravel, AWS (S3, EC2, Lambda, Cloudfront, RDS)',
+          keyResponsibilities: [
+            'Created/designed mockup of system based on client requirements',
+            'Collaborated with team and product owner for UI feedback and improvements',
+            'Developed frontend based on established UI design',
+          ],
         },
       },
       {
@@ -95,7 +111,8 @@ export default {
         projectDetails: {
           projectDescription: 'test',
           role: 'Full Stack Developer',
-          techStack: 'test',
+          techStack:
+            'Laravel, ReactJS, TypeScript, React Native, AWS (S3, EC2, RDS)',
           keyResponsibilities: ['test', 'test'],
         },
       },

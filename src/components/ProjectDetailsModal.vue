@@ -18,12 +18,12 @@
           ></button>
         </div>
         <div class="modal-body">
-          <div>
+          <div class="mb-2">
             Project Description: {{ projectDetails.projectDescription }}
           </div>
-          <div>Role: {{ projectDetails.role }}</div>
-          <div>Tools: {{ projectDetails.techStack }}</div>
-          <div>
+          <div class="mb-2">Role: {{ projectDetails.role }}</div>
+          <div class="mb-2">Tools: {{ projectDetails.techStack }}</div>
+          <div class="mb-2">
             Key Responsibilities:
             <ul>
               <li
