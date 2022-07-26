@@ -16,16 +16,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <router-link class="nav-link" to="/">Home</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
+            <router-link class="nav-link" to="/resume">Resume</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <router-link class="nav-link" to="/projects">Projects</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link class="nav-link" to="/contact">Contact</router-link>
           </li>
         </ul>
       </div>
