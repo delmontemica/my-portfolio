@@ -21,10 +21,11 @@
           :id="'carousel' + modalId"
           class="carousel slide"
           data-bs-ride="carousel"
+          data-interval="false"
         >
           <div class="carousel-inner">
             <div v-for="(image, index) in projectImages" :key="index">
-              <div class="carousel-item" v-bind:class="{ active: index }">
+              <div class="carousel-item" v-bind:class="{ active: index === 0 }">
                 <img :src="image" class="d-block w-100" alt="..." />
               </div>
             </div>
@@ -48,14 +49,18 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-        <div class="modal-body">
-          <div class="mb-2">
+        <div class="modal-body project-modal-details">
+          <div class="mb-3">
             {{ projectDetails.projectDescription }}
           </div>
-          <div class="mb-2">Role: {{ projectDetails.role }}</div>
-          <div class="mb-2">Tools: {{ projectDetails.techStack }}</div>
           <div class="mb-2">
-            Key Responsibilities:
+            <span class="label">Role:</span> {{ projectDetails.role }}
+          </div>
+          <div class="mb-2">
+            <span class="label">Tools:</span> {{ projectDetails.techStack }}
+          </div>
+          <div class="mb-2">
+            <span class="label">Key Responsibilities:</span>
             <ul>
               <li
                 v-for="(item, index) in projectDetails.keyResponsibilities"

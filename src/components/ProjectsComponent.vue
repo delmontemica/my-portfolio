@@ -9,7 +9,7 @@
           :key="index"
         >
           <div
-            class="hover hover-1 text-white rounded"
+            class="hover hover-1 text-white"
             data-bs-toggle="modal"
             :data-bs-target="'#' + project.projectId"
           >
@@ -65,6 +65,8 @@ export default {
         projectImages: [
           require('@/assets/images/GreateKYC-Preview.png'),
           require('@/assets/images/greatekyc/preview.png'),
+          require('@/assets/images/greatekyc/full-design.png'),
+          require('@/assets/images/greatekyc/mobile-design.png'),
         ],
       },
       {
@@ -105,6 +107,8 @@ export default {
         projectImages: [
           require('@/assets/images/GreatSign-Redesign-Preview.png'),
           require('@/assets/images/greatsign/redesigned-preview.png'),
+          require('@/assets/images/greatsign/redesigned-web.png'),
+          require('@/assets/images/greatsign/redesigned-mobile.png'),
         ],
       },
       {
@@ -127,6 +131,9 @@ export default {
         projectImages: [
           require('@/assets/images/DaidoChukidan-Preview.png'),
           require('@/assets/images/chukidan/preview.png'),
+          require('@/assets/images/chukidan/chukidan1-full.png'),
+          require('@/assets/images/chukidan/chukidan2-full.png'),
+          require('@/assets/images/chukidan/chukidan3-full.png'),
         ],
       },
       {

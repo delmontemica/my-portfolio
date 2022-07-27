@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap');
 @import '~bootstrap/scss/bootstrap';
-@import 'variables';
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -23,17 +22,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.btn-home {
-    height: 100px;
-    width: 100px;
-    border-radius: 100px !important;
-    line-height: 80px !important;
-
-    &:hover {
-        background-color: #F3F3F3 !important;
-    }
 }
 
 .home-socials {
@@ -123,3 +111,23 @@ body {
 }
 
 /* HOVER ANIMATION END ============================== */
+
+.project-modal-details {
+    font-size: 14px;
+
+    .label {
+        text-transform: uppercase;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color: $gray-600;
+    }
+}
+
+.modal-content {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.modal-body {
+    border-top: 1px solid $gray-300;
+}
