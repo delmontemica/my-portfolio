@@ -43,9 +43,11 @@ export default {
         projectId: 'greatEkyc',
         projectThumbnail: require('@/assets/images/GreateKYC-Preview.png'),
         projectName: 'Great eKYC',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet:
+          'In-house identity verification utilizing eKYC libraries',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'A service that provides online identity verification for financial, real estate, and other type of transactions. This system utilizes the eKYC libraries provided by CyberTrust.',
           role: 'Frontend Developer, UI Designer',
           techStack: 'ReactJS, Laravel',
           keyResponsibilities: [
@@ -59,11 +61,12 @@ export default {
         projectId: 'greatSign',
         projectThumbnail: require('@/assets/images/GreatSign-Preview.png'),
         projectName: 'Great Sign',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet: 'In-house e-contract system',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'An e-signature platform that allows users to create documents and transactions online.',
           role: 'Full Stack Developer',
-          techStack: 'PHP, AWS (S3, EC2)',
+          techStack: 'PHP, jQuery, JavaScript, AWS (S3, EC2)',
           keyResponsibilities: [
             'Maintained legacy code',
             'Integrated new features',
@@ -90,9 +93,10 @@ export default {
         projectId: 'chukidan',
         projectThumbnail: require('@/assets/images/DaidoChukidan-Preview.png'),
         projectName: 'Chukidan',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet: 'Client-based grants and working regulations provider',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'A system that provides information about public funds such as grants, subsidies, and loans for corporate managements.',
           role: 'Frontend Developer, UI Designer',
           techStack:
             'ReactJS, TypeScript, Laravel, AWS (S3, EC2, Lambda, Cloudfront, RDS)',
@@ -107,12 +111,14 @@ export default {
         projectId: 'nisshiren',
         projectThumbnail: require('@/assets/images/Nisshiren-Preview.png'),
         projectName: 'Identity Authentication',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet:
+          'Identity verification utilizing Japanese MyNumber cards.',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'A client-based system that allows users to read and store data from MyNumber card and use them for identity verification.',
           role: 'Full Stack Developer',
           techStack:
-            'Laravel, ReactJS, TypeScript, React Native, AWS (S3, EC2, RDS)',
+            'Laravel, ReactJS, TypeScript, React Native, Swift, AWS (S3, EC2, RDS)',
           keyResponsibilities: ['test', 'test'],
         },
       },
@@ -120,36 +126,30 @@ export default {
         projectId: 'babelMethod',
         projectThumbnail: require('@/assets/images/BabelMethod-Preview.png'),
         projectName: 'Babel Method',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet: 'E-learning system for Japanese language',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'A Japanese Language E-Learning System is a service designed and developed to cater to a company’s foreign employees.',
           role: 'Frontend Developer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
+          techStack: 'VueJS, JavaScript, NodeJS, AWS (S3)',
+          keyResponsibilities: [
+            "Developed UI on client's provided mockup",
+            'Integrated REST APIs to frontend',
+            'Collaborated with a team of 7 people for pair programmings and code reviews',
+          ],
         },
       },
       {
         projectId: 'okutara',
         projectThumbnail: require('@/assets/images/Okutara-Preview.png'),
         projectName: 'Okutara',
-        projectSnippet: 'This is a short project description.',
+        projectSnippet: 'A blogging website tailored to foreigners in Japan.',
         projectDetails: {
-          projectDescription: 'test',
+          projectDescription:
+            'An inbound tourism website that allows foreigners who traveled to Okutama to post their Okutama experiences through blogs and/or video blogs. ',
           role: 'Full Stack Developer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
-        },
-      },
-      {
-        projectId: 'dnus',
-        projectThumbnail: require('@/assets/images/Dnus-Preview.png'),
-        projectName: 'DNUS',
-        projectSnippet: 'This is a short project description.',
-        projectDetails: {
-          projectDescription: 'test',
-          role: 'Frontend Developer',
-          techStack: 'test',
-          keyResponsibilities: ['test', 'test'],
+          techStack: 'Laravel, JavaScript, jQuery, Bootstrap, AWS (EC2)',
+          keyResponsibilities: ['Created and implemented frontend design'],
         },
       },
     ],
