@@ -1,57 +1,38 @@
 <template>
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4 offset-md-2">
-        <img
-          :src="require('@/assets/images/mica2.png')"
-          class="main-image"
-          alt="main-image"
-        />
+  <div class="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 offset-md-2">
+          <img
+            :src="require('@/assets/images/mica2.png')"
+            class="main-image"
+            alt="main-image"
+          />
+        </div>
+        <div class="col-md-4">
+          <div class="h1">Hi! I'm Mica.</div>
+          <div class="h5">Full Stack Developer</div>
+          <div>
+            I'm a developer currently living the otaku life in Tokyo! I like to
+            think of myself as an art enthusiast, although I don't really do
+            arts. I like UI designing, though. Nice to meet you!
+          </div>
+        </div>
       </div>
-      <div class="col-md-4">
-        <div class="h1">Hello!</div>
-        <div class="h5">A Bit About Me</div>
+      <div class="text-center">
+        <div class="h6 mt-5">Find me in my networks!</div>
         <div>
-          I'm a frontend developer currently living the otaku life in Tokyo! I
-          like to think of myself as an art enthusiast, although I don't really
-          do arts. I like UI designing, though. Nice to meet you!
+          <a
+            type="button"
+            class="btn btn-link"
+            target="_blank"
+            v-for="(i, index) in networks"
+            :key="index"
+            :href="i.link"
+          >
+            <font-awesome-icon :icon="i.icon" class="home-socials" />
+          </a>
         </div>
-        <div class="d-flex my-4">
-          <router-link
-            type="button"
-            class="btn btn-home btn-coral-pink mx-2"
-            to="/resume"
-            >Resume</router-link
-          >
-          <router-link
-            type="button"
-            class="btn btn-home btn-mustard-yellow mx-2"
-            to="/projects"
-          >
-            Projects
-          </router-link>
-          <router-link
-            type="button"
-            class="btn btn-home btn-sky-blue mx-2"
-            to="/contact"
-            >Contact</router-link
-          >
-        </div>
-      </div>
-    </div>
-    <div class="text-center">
-      <div class="h6 mt-5">Find me in my networks!</div>
-      <div>
-        <a
-          type="button"
-          class="btn btn-link"
-          target="_blank"
-          v-for="(i, index) in networks"
-          :key="index"
-          :href="i.link"
-        >
-          <font-awesome-icon :icon="i.icon" class="home-socials" />
-        </a>
       </div>
     </div>
   </div>

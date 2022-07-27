@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200&display=swap');
+@import '~bootstrap/scss/bootstrap';
 @import 'variables';
 
 * {
@@ -18,7 +19,7 @@ body {
 }
 
 .home {
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,7 +82,7 @@ body {
 .hover-1 img {
     width: 105%;
     position: absolute;
-    top: 0;
+    top: -5%;
     left: -5%;
     transition: all 0.3s;
 }

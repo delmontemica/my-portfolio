@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg" id="navbar-scroll">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Micaela</a>
       <button
@@ -16,16 +16,16 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link class="nav-link" to="/">Home</router-link>
+            <a class="nav-link" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/resume">Resume</router-link>
+            <a class="nav-link" href="#resume">Resume</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/projects">Projects</router-link>
+            <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link" to="/contact">Contact</router-link>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
