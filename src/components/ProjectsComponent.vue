@@ -114,7 +114,7 @@ export default {
       {
         projectId: 'chukidan',
         projectThumbnail: require('@/assets/images/chukidan/preview.png'),
-        projectName: 'Chukidan',
+        projectName: 'Daido Life',
         projectSnippet: 'Client-based grants and working regulations provider',
         projectDetails: {
           projectDescription:
