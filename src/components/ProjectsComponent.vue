@@ -54,11 +54,12 @@ export default {
         projectDetails: {
           projectDescription:
             'A service that provides online identity verification for financial, real estate, and other type of transactions. This system utilizes the eKYC libraries provided by CyberTrust.',
-          role: 'Frontend Developer, UI Designer',
-          techStack: 'ReactJS, Laravel',
+          role: 'Frontend Developer, UI Designer, Scrum Master',
+          techStack: 'ReactJS, Laravel, React Native',
           keyResponsibilities: [
             'Designed user interface for the landing page of product',
-            'Collaborated with a team of 5 in development of frontend',
+            'Collaborated with a team of 5 in development of frontend and backend',
+            'Developed and maintained mobile applications',
             'Facilitated scrum events and maintained scrum artifacts as scrum master',
           ],
         },

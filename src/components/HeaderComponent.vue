@@ -13,9 +13,10 @@
           <div class="h1">Hi! I'm Mica.</div>
           <div class="h5">Full Stack Developer</div>
           <div>
-            I'm a developer currently living the otaku life in Tokyo! I like to
-            think of myself as an art enthusiast, although I don't really do
-            arts. I like UI designing, though. Nice to meet you!
+            A full stack developer with 4 years of experience specializing in frontend development.
+            Adept in all stages of web development, and can effectively self-manage during independent
+            projects, as well as collaborate with a team. Proficient in development through Agile
+            methodology’s scrum framework.
           </div>
         </div>
       </div>
