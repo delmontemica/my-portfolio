@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkmica_portfolio"]=self["webpackChunkmica_portfolio"]||[]).push([[443],{4335:function(n,t,a){a.r(t),a.d(t,{default:function(){return l}});var o=a(3396);const r={class:"about"},u=(0,o._)("h1",null,"This is an about page",-1),i=[u];function c(n,t){return(0,o.wg)(),(0,o.iD)("div",r,i)}var e=a(89);const s={},f=(0,e.Z)(s,[["render",c]]);var l=f}}]);
+//# sourceMappingURL=about.431f4270.js.map
