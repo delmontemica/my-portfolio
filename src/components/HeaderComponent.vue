@@ -13,9 +13,10 @@
           <div class="h1">Hi! I'm Mica.</div>
           <div class="h5">Full Stack Developer</div>
           <div>
-            A full stack developer with 4 years of experience specializing in frontend development.
-            Adept in all stages of web development, and can effectively self-manage during independent
-            projects, as well as collaborate with a team. Proficient in development through Agile
+            A full stack developer with 4 years of experience specializing in
+            frontend development. Adept in all stages of web development, and
+            can effectively self-manage during independent projects, as well as
+            collaborate with a team. Proficient in development through Agile
             methodology’s scrum framework.
           </div>
         </div>
